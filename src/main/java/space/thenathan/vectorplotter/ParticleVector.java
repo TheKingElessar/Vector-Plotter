@@ -72,7 +72,7 @@ public class ParticleVector extends Vector3d
     {
         for (Vector3d segment : segments)
         {
-            serverWorld.spawnParticles(new DustParticleEffect(new Vec3f(Vec3d.unpackRgb(this.color.getRGB())), 1), segment.x, segment.y, segment.z, 5, 0, 0, 0, 0);
+            serverWorld.spawnParticles(new DustParticleEffect(new Vec3f(Vec3d.unpackRgb(this.color.getRGB())), 1), segment.x, segment.y, segment.z, 1, 0, 0, 0, 0);
         }
     }
 }
